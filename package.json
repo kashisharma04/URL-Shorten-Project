@@ -1,0 +1,24 @@
+{
+    "name": "url_shortner_project",
+    "version": "1.0.0",
+    "description": "In this project we are going to create shortner URL website.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "npx nodemon src/index.js"
+    },
+    "author": "Saurabh Digambar, Chandrakant Tiwari, Jasmeen  Desai,Kashi Sharma ",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.1.4",
+        "express": "^4.18.2",
+        "mongoose": "^6.8.3",
+        "node-fetch": "^3.3.0",
+        "nodemon": "^2.0.20",
+        "redis": "^3.1.2",
+        "shortid": "^2.2.16",
+        "utils": "^0.2.2",
+        "valid-url": "^1.0.9",
+        "validator": "^13.7.0"
+    }
+}
